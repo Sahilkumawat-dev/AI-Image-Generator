@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #333;
+}
+/* NotesSociety */
+h3,a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+h3,a:hover{
+  color: blue
+}
+.image-generator {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: url("https://img.freepik.com/premium-photo/generative-ai-human-head-inspiration-universe-your-mind-abstract-fantasy-horizontal-illustration_137321-3536.jpg") no-repeat center center/cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-generator::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 18, 18, 0.6);
+}
+
+.image-generator .content {
+  position: relative;
+  color: #fff;
+  padding: 20px;
+  max-width: 700px;
+  text-align: center;
+  z-index: 1;
+}
+
+.image-generator h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.image-generator p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+/* NotesSociety */
+
+.generate-form {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.prompt-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 10px;
+  border-radius: 30px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-quantity,
+.generate-btn {
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.img-quantity {
+  padding: 0 10px;
+}
+
+.generate-btn {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 15px;
+  transition: background 0.3s;
+}
+
+.generate-btn:hover {
+  background-color: #357abd;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.img-card {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #eee;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* NotesSociety */
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.whatsapp-button:hover {
+  background: #20b957;
+}
+
+.whatsapp-button img {
+  width: 30px;
+  height: 30px;
+}
+/* NotesSociety */

@@ -1,0 +1,18 @@
+Day-12
+==========================================
+13/30 days coding challenge (23-12-24).
+===========================================
+NotesSociety
+================================================
+NotesSociety link: https://notessociety.netlify.app/
+
+=======================================================
+follow on WhatsApp group by website..
+https://chat.whatsapp.com/IbFLOvxqw5I9opfiS0PCg4
+============================================================
+"AI Image Generator" 
+With the help of this code you can get the image generated.(HTML,CSS and JS) 
+
+##Using API
+===================================================
+
